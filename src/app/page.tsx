@@ -8,6 +8,7 @@ export default function Home() {
       <body>
         <main className="flex min-h-screen flex-col items-center justify-between p-24">
           <h1 className="text-5xl">CAT.MINTYY.DEV</h1>
+          <Player></Player>
           <Image
             src="https://media1.tenor.com/m/ovWTVvG3VBwAAAAd/mr-fresh-mr-fresh-multiverse.gif"
             width="400"
