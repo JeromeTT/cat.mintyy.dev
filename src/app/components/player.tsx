@@ -5,11 +5,11 @@ const Player = () => {
     let video = document.getElementById("video");
     let videoSrc =
       "https://streetcatpull.hellobike.com/live/4258783365322591678_0.m3u8";
-    if (Hls.isSupported()) {
-      var hls = new Hls();
-      hls.loadSource(videoSrc);
-      hls.attachMedia(video);
-    }
+    // if (Hls.isSupported()) {
+    //   var hls = new Hls();
+    //   hls.loadSource(videoSrc);
+    //   hls.attachMedia(video);
+    // }
   }, []);
   return (
     <div>
